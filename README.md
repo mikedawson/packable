@@ -31,7 +31,7 @@ distribution
 
 2. List any resources that are lazily loaded that would be required for the active URL to be used. For example if the URL has a slidehsow which loads as the user
 goes through each slide, list the resources required to load so that an archiver
-can download them. This can be done in three ways:
+can download them. This can be done in two ways:
 
 Link rel=archive tag:
 ```

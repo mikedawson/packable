@@ -54,7 +54,8 @@ Alternatively, the site can offer a pre-built archive:
 ```
 Webmasters who want to bundle resources themselves (e.g. using tools such as
 webpack) e.g. to reduce server load as/when the site is archived or otherwise
-build their own archives can provide a WACZ, WARC, ZIM, or WBN bundle.
+build their own archives can provide a WACZ, WARC, ZIM, or WBN bundle. The 
+archive should include all resources needed to display the page.
 
 3. If embedding content on external sites that prohibit or restrict downloads 
 (e.g. Youtube), offer an alternate link that can be downloaded:
@@ -65,8 +66,8 @@ build their own archives can provide a WACZ, WARC, ZIM, or WBN bundle.
    href="/originalvideos/AAA.mp4"/>
 ```
 
-4. Ensure that each "packable" page can load with the resources that are fetched
-immediately after the page is opened and any additional resources the page 
+4. Ensure that each "packable" page can be displayed with the resources that 
+are fetched immediately after the page is opened and any additional resources the page 
 references as above. Any features that require live connectivity with the
 original server (e.g. social feeds) should degrade gracefully.
 
